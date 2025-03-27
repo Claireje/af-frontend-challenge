@@ -53,8 +53,6 @@ To run the Docker container, use this command.
 ```bash
 docker run -p 8080:8080 cat-app
 ```
-Thus, the application will be available at http://localhost:8080.
-
 ## Evaluation Criteria
 
 Your submission will be evaluated based on the following criteria:
