@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    margin:20px;
+}
+#imageContainer{
+    margin-top:20px;
+}
+img{
+    width:300px;
+    border-radius: 10px;
+}
+#catImage {
+    max-width: 100%;
+    height: auto;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: black;
+}
