@@ -44,6 +44,17 @@ This challenge has a **strict 24-hour time limit**. The timer starts from the mo
 5.  Once you are finished (and within the 24-hour time limit), please notify us of your submission at csdtdevelopers@umich.edu. In your notification, **include the link to your forked repository.**
 6.  After evaluating your submission we will decided whether to invite you to a brief interview. The interview will largely be non-technical but you may be asked to describe your prior experiences.
 
+## Docker Instructions
+Run the comment to build a docker image. 
+```bash
+docker build -t cat-app
+```
+To run the Docker container, use this command.
+```bash
+docker run -p 8080:8080 cat-app
+```
+Thus, the application will be available at http://localhost:8080.
+
 ## Evaluation Criteria
 
 Your submission will be evaluated based on the following criteria:
@@ -79,3 +90,5 @@ Error Handling: Implement basic error handling to gracefully manage potential is
 Responsiveness: Make the application layout reasonably responsive to different screen sizes.
 
 Unit Tests (If applicable for your chosen stack): While not expected for this simple challenge, demonstrating testing knowledge is a plus if it fits naturally within your chosen stack and time.
+
+Link to the forked repository: https://github.com/Claireje/af-frontend-challenge.git
